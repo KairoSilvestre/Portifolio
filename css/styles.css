@@ -1,0 +1,68 @@
+/* Configurações do site */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+li, p, h2 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.conteiner-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteiner-ul{ 
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.imgs-icons{
+    width: 20px;
+    padding-right: 12px;
+}
+
+.conteiner-div-Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-home-main{
+    width: 200px;
+    height: 200px;
+}
+
+.conteiner-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-home-texts{
+    
+}
