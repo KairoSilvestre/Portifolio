@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body {
+body{
     background-color: black;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ h1 {
     color: white;
 }
 
-li, p, h2 {
+p, h2 {
     color: white;
     font-family: 'Lato', sans-serif;
 }
@@ -31,25 +31,34 @@ ul {
 .conteiner-ul{ 
     display: flex;
     align-items: center;
-    padding: 0px;
+    justify-content: space-around;
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
     border-color: white;
+    padding: 8px;
 }
 
 .imgs-icons{
     width: 20px;
-    padding-right: 12px;
+    margin: 5px;
 }
 
-.conteiner-div-Icons {
+.conteiner-button-Icons {
     display: flex;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
-    padding: 18px;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-contato {
+
 }
 
 .img-home-main{
@@ -63,6 +72,9 @@ ul {
     justify-content: center;
 }
 
-.conteiner-home-texts{
-    
+/* Animações do site */
+
+.conteiner-button-Icons:hover {
+    background-color: rgba(197, 0, 197, 0.719);
+    transform: scale(1.0);
 }
